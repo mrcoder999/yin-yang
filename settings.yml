@@ -1,3 +1,4 @@
+ custom_icon_name:
   client: true
   default: "yin-yang"
   description: "Enter the name of a FontAwesome 5 icon to display instead of the default loading spinner"
