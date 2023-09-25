@@ -1,0 +1,9 @@
+{{#if @outletArgs.condition}}
+  <div class="custom-loader-container">
+    <div class="custom-loading-spinner">
+      {{d-icon (theme-setting "custom_icon_name")}}
+    </div>
+  </div>
+{{else}}
+  {{yield}}
+{{/if}}
