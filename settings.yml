@@ -1,0 +1,13 @@
+  client: true
+  default: "yin-yang"
+  description: "Enter the name of a FontAwesome 5 icon to display instead of the default loading spinner"
+
+custom_icon_color:
+  client: true
+  default: ""
+  description: "Icon color hex code"
+
+custom_icon_size:
+  client: true
+  default: "42px"
+  description: "Icon size in pixels"
