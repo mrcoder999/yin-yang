@@ -1,0 +1,13 @@
+.custom-loader-container {
+  position: relative;
+  margin: 20px 0 20px;
+  display: flex;
+  justify-content: center;
+  
+  .custom-loading-spinner .d-icon {
+    color: $custom-icon-color;
+    font-size: $custom-icon-size;
+    -webkit-animation: rotate-forever 1s infinite linear, fadein 1s;
+    animation: rotate-forever 1s infinite linear, fadein 1s;
+  }
+}
